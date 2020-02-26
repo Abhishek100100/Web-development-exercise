@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--Create your website by using animation effects of jQuery.-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>jQuery - Animations</title>
+    <style media="screen">
+        header {
+            text-align: center;
+            font-style: bold;
+            font-family: fantasy;
+            font-size: 65px;
+        }
+
+        ul {
+            list-style-type: none;
+            list-style-image: inherit;
+            list-style-position: inherit;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #efdcac;
+            font-size: 25px;
+            position: sticky;
+            top: 0;
+        }
+
+        li {
+            border-right: 1px solid #bbb;
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        #grad {
+            background-image: url(image/ios-11-heritage-stripe-yellow-7j.jpg);
+            width: 100%;
+            height: 100%;
+            background-size: 100%;
+        }
+
+        .content {
+            padding: 15px;
+            font-size: 25px;
+        }
+
+        .mid {
+            margin-top: 30px;
+        }
+
+        footer {
+            background-color: orangered;
+            padding: 10px;
+            font-size: 15px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .redDiv {
+            background-color: orangered;
+            height: 100px;
+            width: 100px;
+            margin-left: 50px;
+        }
+
+        .yellowDiv {
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+            display: none;
+            margin-left: 50px;
+        }
+
+        img {
+            position: relative;
+            /* Required to move element */
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+
+            $('#myDiv').animate({
+                height: '200px',
+                width: '200px'
+            });
+        });
+        $(document).ready(function() {
+
+            $('#myDiv1').animate({
+                    height: '200px',
+                    width: '200px'
+                },
+                5000);
+        });
+
+        $(document).ready(function() {
+
+            $('#myDiv2').toggle(5000, function() {
+                $('#msgDiv').append('fadeOut completed.')
+            });
+
+        });
+        $(document).ready(function() {
+
+            $('#div1').hide(5000, function() {
+                $('#msgDiv1').append('Red div is hidden.')
+            });
+
+            $('#div2').show(5000, function() {
+                $('#msgDiv1').append('Yellow div is visible.')
+            });
+
+        });
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("img").animate({
+                    left: 300
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="grad">
+        <header>
+            Jquery Animation Effects
+        </header>
+
+        <div class="content">
+
+            <div class="mid">
+                <p>1. <b>jQuery animate method to change height and width of element.</b></p>
+                <div id="myDiv" class="redDiv">
+                </div><br><br><br>
+
+                <p><b>2. jQuery animate method by setting duration in miliseconds</b></p>
+                <div id="myDiv1" class="redDiv">
+                </div>
+                <br><br><br>
+                <p>3. <b>jQuery toggle() method</b></p>
+                <div id="msgDiv">
+                </div>
+                <div id="myDiv2" class="redDiv">
+                </div>
+                <br><br><br>
+                <p>4. <b>jQuery hide() & show() method</b></p>
+                <div id="msgDiv1">
+                </div>
+                <div id="div1" class="redDiv">
+                </div>
+
+                <div id="div2" class="yellowDiv">
+                </div>
+                <br><br><br>
+                <p>5. <b>jQuery Sliding the image using animate</b></p>
+                <button type="button" style="margin-left: 50px;">Start Animation</button>
+                <p>
+                    <img style="border-radius:100%;" height="100px" src="image/mushroom.jpg" alt="Mushroom" style="margin-left: 50px;">
+                </p>
+
+                <p>To Learn more → <a href="https://api.jquery.com/">Jquery API Documentation</a></p>
+            </div>
+        </div>
+        <div>
+            <footer>
+                <p><strong>
+                        <marquee></marquee>&copy Abhishek 2019 <marquee>
+                    </strong></p>
+            </footer>
+        </div>
+</body></html>
