@@ -1,0 +1,30 @@
+table{
+	
+	background-color: #ffcd60;
+	table-layout: auto;
+	border-style: groove;
+	
+	
+}
+
+
+
+body{
+	
+	
+	background-color: #fffa67;
+}
+
+
+
+hr{
+	
+	 
+        border-style:none;
+        border-top-style:dotted;
+        width: 10%;
+        border-top-width: 10px;
+        border-top-color: orangered; 
+	
+	
+}
