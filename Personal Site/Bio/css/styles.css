@@ -1,0 +1,20 @@
+
+    body{
+        
+        background-color: lightgoldenrodyellow;
+        }
+    
+    hr{
+        
+        border-style:none;
+        border-top-style:dotted;
+        width: 10%;
+        border-top-width: 9px;
+        border-top-color: orange; 
+        
+    {
+        background-color: aqua
+        }
+        
+        
+      }
