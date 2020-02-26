@@ -1,0 +1,48 @@
+
+
+
+.title {
+
+	background-image: url(rainbow.png);
+	background-size: 100%;
+
+}
+
+.image {
+
+
+	height: 300px;
+	width: 400px;
+	border-radius: 10%;
+    padding: 20px;
+    
+
+}
+
+
+.temp {
+	background-image: url(back.jpg);
+	background-size: 100%;
+	border-radius: 2%;
+
+}
+
+
+
+
+hr {
+
+
+	border-style: none;
+	border-top-style: dotted;
+	width: 10%;
+	border-top-width: 9px;
+	border-top-color: #f5f5f5;
+
+
+}
+
+
+.form {
+	background-color: grey;
+}
