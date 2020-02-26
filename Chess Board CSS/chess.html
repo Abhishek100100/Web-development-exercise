@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--Displaying Chess Board.-->
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>ChessBoard</title>
+
+</head>
+
+<body style="background-image: url(Canyon.jpg)">
+
+	<div>
+		<h1 style="text-align:center; font-size:50px; color: white">ChessBoard</h1>
+		<center>
+			<br>
+			<script type="text/javascript">
+				document.write("<table border = '1' width='700' height='700'>");
+				for (var i = 1; i < 9; i++) {
+					document.write("<tr>");
+					for (var j = 1; j < 9; j++) {
+						if ((i + j) % 2 != 0) {
+							document.write("<td bgcolor='white'></td>");
+						} else {
+							document.write("<td bgcolor='black'></td>");
+						}
+					}
+					document.write("</tr>");
+				}
+				document.write("</table>");
+			</script>
+			<footer style="font-size:30px; color: black;">
+				<p>&copy Abhishek (BE17F05F007).</p>
+			</footer>
+		</center>
+	</div>
+
+</body>
+</html>
