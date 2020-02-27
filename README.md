@@ -34,7 +34,7 @@ The Images folder of this project is available here on [Images Folder](https://d
 
 ## Sample images:
 
-![sample_image1](Amazon Forest facts WebPage/snaps/Screenshot (126).png)
+![sample_image1](Amazon Forest facts WebPage/snaps/Screenshot(126).png)
 ![sample_image2](2.png)
 ![sample_image3](3.png)
 ![sample_image4](4.png)
