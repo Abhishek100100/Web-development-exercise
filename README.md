@@ -60,7 +60,6 @@ Sports Club Registration form
 Registration_form_demo
 ```
 ![Registration_form_demo](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/Registration_form_demo/snaps/Screenshot%20(22).png)
-![Registration_form_demo](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/Registration_form_demo/snaps/Screenshot%20(23).png)
 ![Registration_form_demo](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/Registration_form_demo/snaps/2a.png)
 ![Registration_form_demo](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/Registration_form_demo/snaps/2b.png)
 
