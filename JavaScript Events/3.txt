@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Onclick</title>
+<script type="text/javascript">
+
+    function displayDate() {
+      document.getElementById("date").innerHTML = Date();
+    }
+
+</script>
+
+</head>
+<body>
+<button onclick="displayDate()" style="background-color:#4286f4;width:200px;height:80px;padding:20px; margin-left:15px;">Today</button>
+<p id="date" style="padding:15px;"></p>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--Display all the event methods on a web page.-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Javascript - Events</title>
+    <style media="screen">
+        header {
+            text-align: center;
+            font-style: bold;
+            font-family: fantasy;
+            ;
+            font-size: 65px;
+        }
+
+        #myDiv {
+            transform: rotateX(180deg);
+            opacity: 0.5;
+        }
+
+        ul {
+            list-style-type: none;
+            list-style-image: inherit;
+            list-style-position: inherit;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #efdcac;
+            font-size: 25px;
+            position: sticky;
+            top: 0;
+        }
+
+        li {
+            border-right: 1px solid #bbb;
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        #grad {
+            background-image: url(images/ios-11-heritage-stripe-green-rs.jpg);
+            width: 100%;
+            height: 100%;
+            background-size: 100%
+        }
+
+        .content {
+            padding: 15px;
+            font-size: 25px;
+        }
+
+        .mid {
+            margin-top: 30px;
+        }
+
+        footer {
+            height: 100px;
+            padding: 10px;
+            font-size: 15px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        function mOver(obj) {
+            obj.innerHTML = "Surprised!"
+        }
+
+        function mOut(obj) {
+            obj.innerHTML = "Mouse Over"
+        }
+
+        function mDown(obj) {
+            obj.style.backgroundColor = "#d19e9e";
+            obj.innerHTML = "Release";
+        }
+
+        function mUp(obj) {
+            obj.style.backgroundColor = "#f28a8a";
+            obj.innerHTML = "Wow!";
+        }
+
+        function displayDate() {
+            document.getElementById("date").innerHTML = Date();
+        }
+
+        function bgcolor() {
+            document.getElementById("para").style.color = "red";
+        }
+
+        function focusFunction() {
+            document.getElementById("myInput").style.background = "#dee557";
+        }
+
+        function blurFunction() {
+            document.getElementById("myInput").style.background = "#f280d0";
+        }
+    </script>
+</head>
+
+<body>
+
+    <header>
+        Javascript events
+
+    </header>
+    <div id="grad">
+        <div class="content">
+
+            <div class="mid">
+                <p>1. <b>onmouseover</b> and <b>onmouseout</b></p>
+                <p style="padding:15px;">Mouse Over the button to see the result.</p>
+                <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:gold;width:200px;height:80px;padding:20px; margin-left:15px;">Mouse Over</div>
+                <p style="padding:15px;">Click on the link below to see the code:</p>
+                <p style="margin-left: 15px;"><a href="1.txt">Try it!</a></p>
+                <p>2. <b>onmousedown</b> and <b>onmouseup</b></p>
+                <p style="padding:15px;">Click on the the button and then release it. You"ll be surprised once again.</p>
+                <div onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color:orangered;width:200px;height:80px;padding:20px; margin-left:15px;">Click Here</div>
+                <p style="padding:15px;">Click on the link below to see the code:</p>
+                <p style="margin-left: 15px;"><a href="2.txt">Try it!</a></p>
+                <p>3. <b>onclick</b> - Widely Used</p>
+                <p style="padding:15px;">Wanna display current Date & Time. Click on the button below.</p>
+                <button onclick="displayDate()" style="background-color:#4286f4;width:200px;height:80px;padding:20px; margin-left:15px;">Today</button>
+                <p id="date" style="padding:15px;"></p>
+                <p style="padding:15px;">Click on the link below to see the code:</p>
+                <p style="margin-left: 15px;"><a href="3.txt">Try it!</a></p>
+                <p>4. <b>onchange</b></p>
+                <p style="padding:15px;">Click on the button below to change the font color of the paragraph given below.</p>
+                <button onclick="bgcolor()" style="background-color:lawngreen;width:200px;height:80px;padding:20px; margin-left:15px;">Change</button>
+                <p id="para" style="padding:15px;">The font color of this paragraph will be changed after clicking the above button.<p>
+                        <p style="padding:15px;">Click on the link below to see the code:</p>
+                        <p style="margin-left: 15px;"><a href="4.txt">Try it!!</a></p>
+                        <p>5. <b>onfocus</b> and <b>onblur</b></p>
+                        <p style="padding:15px;">When you enter the input field, the background color changes to yellow. When you leave the input field, the background color changes to light pink.</p>
+                        <input type="text" id="myInput" onfocus="focusFunction()" onblur="blurFunction()" placeholder="Focus & then leave" style="margin-left:15px;">
+                        <p style="padding:15px;">Click on the link below to see the code:</p>
+                        <p style="margin-left: 15px;"><a href="5.txt">Try it!</a></p>
+                        <b></b>
+                        <p>For more such events → <a href="#">https://en.wikipedia.org/wiki/DOM_events</a></p>
+            </div>
+        </div>
+        <footer>
+            <p style="background-color: aquamarine;"><strong> &copy Abhishek Bagde 2019.</strong></p>
+        </footer>
+    </div>
+</body></html>

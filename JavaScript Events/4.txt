@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Onclick</title>
+<script type="text/javascript">
+
+    function bgcolor()
+    {
+      document.getElementById("para").style.color="red";
+    }
+
+</script>
+
+</head>
+<body>
+<button onclick="bgcolor()" style="background-color:#4286f4;width:200px;height:80px;padding:20px; margin-left:15px;">Change</button>
+<p id="para" style="padding:15px;">The font color of this paragraph will be changed after clicking the above button.<p>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>MouseOver</title>
+<script type="text/javascript">
+function focusFunction() {
+      document.getElementById("myInput").style.background = "#dee557";
+    }
+
+    function blurFunction() {
+      document.getElementById("myInput").style.background = "#f280d0";
+    }
+
+</script>
+
+</head>
+<body>
+<input type="text" id="myInput" onfocus="focusFunction()" onblur="blurFunction()" placeholder="Focus & then leave" style="margin-left:15px;">
+</body>
+</html>
