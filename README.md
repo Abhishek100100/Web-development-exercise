@@ -35,15 +35,16 @@ Personal Site
 
 
 ```bash
-Registration_form_demo
-```
-![Registration_form_demo](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/Registration_form_demo/snaps/2a.png)
-
-
-```bash
 Web Calculator
 ```
 ![Web Calculator](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/Web%20Calculator/snaps/Screenshot%20(133).png)
+
+
+
+```bash
+WorldCup ScoreChart
+```
+![WorldCup ScoreChart](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/WorldCup%20ScoreChart/snaps/Screenshot%20(122).png)
 
 
 ```bash
@@ -56,11 +57,12 @@ Sports Club Registration form
 
 
 ```bash
-WorldCup ScoreChart
+Registration_form_demo
 ```
-![WorldCup ScoreChart](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/WorldCup%20ScoreChart/snaps/Screenshot%20(122).png)
-
-
+![Registration_form_demo](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/Registration_form_demo/snaps/2a.png)
+![Registration_form_demo](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/Registration_form_demo/snaps/2b.png)
+![Registration_form_demo](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/Registration_form_demo/snaps/Screenshot%20(22).png)
+![Registration_form_demo](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/Registration_form_demo/snaps/Screenshot%20(23).png)
 
 ```bash
 ```
