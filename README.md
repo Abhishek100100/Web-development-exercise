@@ -65,5 +65,14 @@ Registration_form_demo
 
 
 ```bash
+JavaScript Events
+```
+![JavaScript Events](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/JavaScript%20Events/snaps/Screenshot%20(135).png)
+![JavaScript Events](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/JavaScript%20Events/snaps/Screenshot%20(136).png)
+![JavaScript Events](https://github.com/Abhishek100100/Web_Development_Practice/blob/master/JavaScript%20Events/snaps/Screenshot%20(137).png)
+
+
+
+```bash
 ```
 
