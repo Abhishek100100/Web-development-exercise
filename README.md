@@ -1,4 +1,4 @@
-# Web_Development_Practice
+# Web development exercises
 This repositories consists of the self assessment tasks to improvise my skills and test my knowledge of the tools used in Website Development.
 
 
